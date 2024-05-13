@@ -13,6 +13,7 @@ default_year = 2023
 # PostgreSQL Connection
 
 
+
 PGHOST= st.secrets["PGHOST"]
 PGDATABASE=st.secrets["PGDATABASE"]
 PGUSER=st.secrets["PGUSER"]
@@ -32,7 +33,7 @@ marital_statuses = {
 }
 
 
-@st.cache_data
+@st.cache_data(max_entries=20, persist=True)
 def load_data():
 
 
