@@ -12,12 +12,11 @@ default_year = 2023
 
 # PostgreSQL Connection
 
-PGHOST='ep-white-glitter-a5sbdt2v.us-east-2.aws.neon.tech'
-PGDATABASE='US_DEMOGRAPHY'
-PGUSER='neondb_owner'
-PGPASSWORD='qKgwuk1seG3Y'
 
-
+PGHOST= st.secrets["PGHOST"]
+PGDATABASE=st.secrets["PGDATABASE"]
+PGUSER=st.secrets["PGUSER"]
+PGPASSWORD=st.secrets["PGPASSWORD"]
 
 conn_str = f'postgresql://{PGUSER}:{PGPASSWORD}@{PGHOST}/{PGDATABASE}?sslmode=require'
 
