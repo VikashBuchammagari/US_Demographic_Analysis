@@ -15,6 +15,6 @@ Before running this project, ensure you have the following installed:
 pip install -r requirements.txt
 ```
 ## Order of excution:
-- Run DataAPY.py first
+- Run DataAPI.py first
 - Then run StreamlitApp.py
   
