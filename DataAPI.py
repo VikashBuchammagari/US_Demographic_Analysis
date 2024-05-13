@@ -13,7 +13,6 @@ NOTE: THIS CODE TAKES LONG TIME TO RUN ---- RUN THIS CODE ONLY ONCE-------------
 
 DATA COLLECTED:
 
-DIVISION: Division of the United States
 PRTAGE: Age of the person
 PEMARITL: Marital status
 PEEDUCA: Highest level of education completed
